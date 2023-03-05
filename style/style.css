@@ -135,7 +135,7 @@ li {
     url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding-bottom: 188px;
   padding-top: 188px;
@@ -182,8 +182,6 @@ li {
   border-radius: 4px;
 }
 .about-us-icon {
-  width: 59px;
-  height: 64px;
 }
 .what-title {
   font-weight: 700;
@@ -249,7 +247,7 @@ li {
   fill: var(--light);
 }
 .customers-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -264,7 +262,6 @@ li {
   flex-direction: row;
 }
 .customers-item {
-  display: flex;
   width: 168px;
   height: 88px;
 }
@@ -292,13 +289,10 @@ li {
 .team-socials-link:focus {
   background: #404bbf;
 }
-.team-socials-icon {
-  width: 16px;
-  height: 16px;
-}
+
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--pressed-state);
+  border-color: 1px solid var(--pressed-state);
   fill: var(--pressed-state);
 }
 .our-team {
@@ -369,8 +363,6 @@ li {
   fill: var(--light);
 }
 .footer-icon {
-  width: 16px;
-  height: 16px;
 }
 .footer-container {
   display: flex;
@@ -380,7 +372,8 @@ li {
 }
 .footer-media {
   color: #ffffff;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 .footer-link:hover,
 footer-link:focus {
@@ -438,6 +431,9 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.portfolio-sub {
+  color: #434455;
+}
 .portfolio-item {
   color: #434455;
 }
@@ -459,6 +455,7 @@ button {
 }
 .portfolio-link {
   display: block;
+  text-decoration: none;
 }
 .portfolio-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
