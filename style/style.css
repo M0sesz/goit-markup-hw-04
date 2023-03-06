@@ -174,8 +174,8 @@ li {
 }
 .about-us-container {
   display: flex;
-  width: 264px;
   height: 122px;
+  margin-bottom: 8px;
   justify-content: center;
   align-items: center;
   background: #f4f4fd;
@@ -292,7 +292,7 @@ li {
 
 .customers-link:hover,
 .customers-link:focus {
-  border-color: 1px solid var(--pressed-state);
+  border-color: var(--pressed-state);
   fill: var(--pressed-state);
 }
 .our-team {
